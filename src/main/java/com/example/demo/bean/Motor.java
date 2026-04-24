@@ -14,14 +14,14 @@ public class Motor implements InitializingBean, DisposableBean{
 	@Override
 	public void afterPropertiesSet() throws Exception {
 		// after bean object creation
-		System.out.println("Executed some logic just after bean creation..");
+		System.out.println("Executed some logic just after bean creation..Mototr bean");
 		
 	}
 
 	@Override
 	public void destroy() throws Exception {
 		// execute some logic before destruction of bean object
-		System.out.println("Executed some logic just befor bean being destryed...");
+		System.out.println("Executed some logic just befor bean being destryed...Motor bean");
 	}
 
 }
